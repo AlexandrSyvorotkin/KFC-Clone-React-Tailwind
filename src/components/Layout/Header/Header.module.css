@@ -2,11 +2,14 @@
     width: 1440px;
     height: 88px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header_red {
     position: absolute;
-    left: 50%;
+    left: 47%;
     top: 0;
     width: 70px;
     display: flex;

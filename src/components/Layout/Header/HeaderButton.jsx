@@ -5,6 +5,7 @@ import Basket from '../../assets/Basket.png'
 const HeaderButton = () => {
     return (
         <div className={styles.basket}>
+            <div>327р</div>
             <img src={Basket} alt=""/>
         </div>
     );
