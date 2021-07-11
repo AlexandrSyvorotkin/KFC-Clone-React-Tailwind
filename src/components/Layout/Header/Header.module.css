@@ -1,7 +1,5 @@
 .header {
-    width: 1440px;
-    height: 88px;
-    margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,4 +19,20 @@
     height: 17px;
     margin-left: 14px;
     background-color: #E4002B;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button {
+    width: 146px;
+    height: 48px;
+    border: none;
+}
+
+button onActive {
+    background: #E4002B;
 }
