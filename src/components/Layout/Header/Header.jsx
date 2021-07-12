@@ -15,13 +15,15 @@ const Header = () => {
 
     return (
         <>
+            <div className={styles.redHeaderLogo}>
+                <div className={styles.header_red}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
             <div className={styles.header}>
                 <HumburgerMenu/>
-                <div className={styles.header_red}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
                 <HeaderButton/>
             </div>
             <div className={styles.header_info}>

@@ -5,20 +5,25 @@
     padding-top: 30px;
 }
 
+.redHeaderLogo {
+    display: flex;
+    justify-content: center;
+}
+
 .header_red {
-    position: absolute;
-    left: 47%;
-    top: 0;
-    width: 70px;
     display: flex;
     flex-direction: row;
 }
 
-.header_red span {
+.header_red div {
     width: 14px;
     height: 17px;
     margin-left: 14px;
     background-color: #E4002B;
+}
+
+.header_red div:first-child {
+    margin-left: 0;
 }
 
 .header_info {

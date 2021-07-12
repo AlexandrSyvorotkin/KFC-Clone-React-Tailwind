@@ -1,0 +1,21 @@
+.redFooterLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_red {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_red div {
+    width: 32px;
+    height: 72px;
+    margin-left: 14px;
+    background-color: #E4002B;
+}
+
+.footer_red div:first-child {
+    margin-left: 0;
+}
+

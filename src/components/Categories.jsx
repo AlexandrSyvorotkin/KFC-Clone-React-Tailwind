@@ -7,7 +7,7 @@ const Categories = () => {
 
     return (
         <ul>
-            {categories.map((item)=> <li>{item}</li>)}
+            {categories.map((item)=> <li key={item}>{item}</li>)}
         </ul>
     );
 };
