@@ -30,5 +30,30 @@
     height: 227px;
 }
 
+.footer_end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_icon_links {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+
+.footer_stores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_stores img:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
 
 
