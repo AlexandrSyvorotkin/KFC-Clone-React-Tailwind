@@ -1,8 +1,8 @@
 .header {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 }
 
 .header_red {
@@ -24,15 +24,15 @@
 .header_info {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 110px;
 }
 
-button {
+.btn {
     width: 146px;
     height: 48px;
     border: none;
 }
 
-button onActive {
+.btn-active {
     background: #E4002B;
 }

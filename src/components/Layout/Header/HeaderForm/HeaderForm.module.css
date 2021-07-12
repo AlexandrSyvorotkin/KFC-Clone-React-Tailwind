@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 43px;
+}
+
+.form {
+    display: flex;
+}
+
+.input input {
+    width: 210px;
+    height: 42px;
+}
+
+.city_adress {
+    font-size: 30px;
+    margin-bottom: 43px;
+    font-weight: bold;
+}
+
+label {
+    margin-right: 12px;
+}
