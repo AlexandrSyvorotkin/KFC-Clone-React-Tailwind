@@ -1,0 +1,162 @@
+{
+  "burgers": {
+    "1": {
+      "id": 1,
+      "name": "Шевбургер Де Люкс",
+      "price": 170,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/VnEgcf2wCjgJZQeR58mvtzUB.png"
+    },
+    "2": {
+      "id": 2,
+      "name": "Шевбургер Де Люкс острый",
+      "price": 200,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/wK4fLvNXD4NKZJUrVgjPV383.png"
+    },
+    "3": {
+      "id": 3,
+      "name": "Шевбургер",
+      "price": 210,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/6vN4HWJJUP4AYZfMg37LsuDv.png"
+    },
+    "4": {
+      "id": 4,
+      "name": "Шевбургер джуниор",
+      "price": 190,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/Jtt1xXNpgBaXhvbXXgNzJCSo.png"
+    },
+    "5": {
+      "id": 5,
+      "name": "Шевбургер острый",
+      "price": 225,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/nyt79dy2gTrx5v595yXYuXAr.png"
+    },
+    "6": {
+      "id": 6,
+      "name": "Чисбургер Де Люкс",
+      "price": 250,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/1eKMTpqmU4kfM7CXsJZc3VWF.png"
+    },
+    "7": {
+      "id": 7,
+      "name": "Шевбургер Джуниор Острый",
+      "price": 270,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/etZVHiWewqH6XqEsShD4Axz9.png"
+    }
+  },
+  "twisters": {
+    "1": {
+      "id": 1,
+      "name": "Боксмастер оригинальный",
+      "price": 200,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png"
+    },
+    "2": {
+      "id": 2,
+      "name": "Боксмастер острый",
+      "price": 210,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/eyHjMJJmzKRcYdMWm5ozF7J9.png"
+    },
+    "3": {
+      "id": 3,
+      "name": "Твистер Де Люкс Острый",
+      "price": 184,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png"
+    },
+    "4": {
+      "id": 4,
+      "name": "Твистер Де Люкс Оригинальный",
+      "price": 170,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png"
+    },
+    "5": {
+      "id": 5,
+      "name": "Твистер Оригинальный",
+      "price": 150,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/gVuS5qWLXj8oZgfRUSN9x3wv.png"
+    },
+    "6": {
+      "id": 6,
+      "name": "Твистер Острый",
+      "price": 130,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/ummzRoj4czYfqzSQBKUmx7dP.png"
+    }
+  },
+  "baskets": {
+    "1": {
+      "id": 1,
+      "name": "Домашний Баскет Оригинальный новый",
+      "price": 200,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png"
+    },
+    "2": {
+      "id": 2,
+      "name": "Домашний баскет оригинальный новый",
+      "price": 699,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/jhBxUJGVCNKRk2Ar2KYLsRAo.png"
+    },
+    "3": {
+      "id": 3,
+      "name": "Домашний баскет острый новый",
+      "price": 750,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/jhBxUJGVCNKRk2Ar2KYLsRAo.png"
+    },
+    "4": {
+      "id": 4,
+      "name": "Баскет острый 'Крылышки и ножки'",
+      "price": 400,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/pheajxm8jxqvsdj7oh48t7yz2dtg"
+    },
+    "5": {
+      "id": 5,
+      "name": "Баскет 12 крыльев + 12 нагетсов",
+      "price": 480,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/7o941py0ed627n6oaaill6whiyij"
+    },
+    "6": {
+      "id": 6,
+      "name": "Баскет дуэт оригинальный",
+      "price": 419,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/EzBv7o1KZJH31f1wLznix1hF.png"
+    },
+    "7": {
+      "id": 7,
+      "name": "Баскет 8 ножек оригинальный",
+      "price": 550,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/nnyu1l3i2e0l6ixlg8couj9xk9fy"
+    },
+    "8": {
+      "id": 8,
+      "name": "Баскет L",
+      "price": 650,
+      "delivery": true,
+      "img": "https://s82079.cdn.ngenix.net/330x0/8ju4v3Q9mQppShTxm8MBBXzs.png"
+    },
+    "9": {
+      "id": 9,
+      "name": "Баскет M",
+      "price": 540,
+      "delivery": false,
+      "img": "https://s82079.cdn.ngenix.net/330x0/8ju4v3Q9mQppShTxm8MBBXzs.png"
+    }
+  }
+}
