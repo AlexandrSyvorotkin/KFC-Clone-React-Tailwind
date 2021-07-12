@@ -19,3 +19,16 @@
     margin-left: 0;
 }
 
+.footer_sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.rfc_logo {
+    width: 227px;
+    height: 227px;
+}
+
+
+

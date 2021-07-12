@@ -1,4 +1,4 @@
-li {
+.categories_items {
     list-style: none;
     display: inline-block;
     margin-right: 19px;
@@ -7,7 +7,7 @@ li {
     color: #9D9D9D;
 }
 
-ul {
+.categories {
     overflow: hidden;
     padding: 0;
 }
