@@ -23,9 +23,9 @@ function App() {
     return (
         <>
             <Header/>
-            <Categories />
-            {isLoaded && <Menu menu={menu}/>}
-            <Footer/>
+            {/*<Categories />*/}
+            {/*{isLoaded && <Menu menu={menu}/>}*/}
+            {/*<Footer/>*/}
 
         </>
     );
