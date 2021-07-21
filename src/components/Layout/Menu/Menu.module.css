@@ -1,0 +1,4 @@
+.menu_cards {
+    display: flex;
+    justify-content: space-around;
+}
