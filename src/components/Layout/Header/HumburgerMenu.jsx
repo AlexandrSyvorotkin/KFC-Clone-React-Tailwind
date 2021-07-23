@@ -1,12 +1,11 @@
 import React from 'react';
-import styles from './HumburgerMenu.module.css'
 
 const HumburgerMenu = () => {
     return (
-        <div className={styles.humburger}>
-            <span className={styles.long}></span>
-            <span></span>
-            <span className={styles.long}></span>
+        <div className='block flex flex-col'>
+            <span className='gam-menu'></span>
+            <span className='gam-menu'></span>
+            <span className='gam-menu'></span>
         </div>
     );
 };

@@ -1,5 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .gam-menu {
+        @apply w-6 h-0.5 bg-black mb-1
+    }
+
+    .red-div-block {
+        @apply w-5 h-7 bg-red-500
+    }
+}
+
+
 body {
     width: 1440px;
-    height: 88px;
     margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
 }

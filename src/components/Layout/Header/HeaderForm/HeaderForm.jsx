@@ -1,17 +1,16 @@
 import React from 'react';
-import styles from './HeaderForm.module.css'
 
 const HeaderForm = () => {
     return (
         <>
-            <div className={styles.city_adress}>Доставка город Москва</div>
-            <form className={styles.form}>
-                <div className={styles.input}>
-                    <label htmlFor="street">Улица</label>
-                    <input  type='text' placeholder="Остоженка"/>
+            <div className='bold text-4xl mb-5'>Доставка город Москва</div>
+            <form className='flex'>
+                <div className='flex items-center text-2xl bold mr-8'>
+                    <label className='mr-3' htmlFor="street">Улица</label>
+                    <input type='text' placeholder="Остоженка"/>
                 </div>
-                <div className={styles.input}>
-                    <label htmlFor="house">Дом</label>
+                <div className='flex items-center text-2xl bold mr-8'>
+                    <label className='mr-3' htmlFor="house">Дом</label>
                     <input type='number' placeholder='8'/>
                 </div>
             </form>
