@@ -40,7 +40,7 @@ const Footer = () => {
 
     // todo: Footer Links
     return (
-        <footer >
+        <footer className='mt-10'>
             <div className='flex justify-center'>
                 <div className='flex flex-row'>
                     <div className='red-block-footer'></div>

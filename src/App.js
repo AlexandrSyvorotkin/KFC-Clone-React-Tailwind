@@ -23,8 +23,8 @@ function App() {
     return (
         <>
             <Header/>
-            {/*<Categories />*/}
-            {/*{isLoaded && <Menu menu={menu}/>}*/}
+            <Categories />
+            {isLoaded && <Menu menu={menu}/>}
             <Footer/>
 
         </>
