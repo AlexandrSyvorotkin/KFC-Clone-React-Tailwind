@@ -1,5 +1,5 @@
 import React from 'react';
-import Basket from '../../assets/Basket.png'
+import Basket from '../../../assets/Basket.png'
 
 const HeaderButton = () => {
     return (

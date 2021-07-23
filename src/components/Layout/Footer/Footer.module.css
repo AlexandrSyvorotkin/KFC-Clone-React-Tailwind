@@ -1,40 +1,36 @@
-.redFooterLogo {
-    display: flex;
-    justify-content: center;
-}
+/*.redFooterLogo {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
-.footer_red {
-    display: flex;
-    flex-direction: row;
-}
 
-.footer_red div {
-    width: 32px;
-    height: 72px;
-    margin-left: 14px;
-    background-color: #E4002B;
-}
+/*.footer_red div {*/
+/*    width: 32px;*/
+/*    height: 72px;*/
+/*    margin-left: 14px;*/
+/*    background-color: #E4002B;*/
+/*}*/
 
-.footer_red div:first-child {
-    margin-left: 0;
-}
+/*.footer_red div:first-child {*/
+/*    margin-left: 0;*/
+/*}*/
 
-.footer_sections {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 81px;
-}
+/*.footer_sections {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 81px;*/
+/*}*/
 
-.rfc_logo {
-    width: 227px;
-    height: 227px;
-}
+/*.rfc_logo {*/
+/*    width: 227px;*/
+/*    height: 227px;*/
+/*}*/
 
-.footer_end {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
+/*.footer_end {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-end;*/
+/*}*/
 
 .footer_icon_links {
     width: 180px;
@@ -43,15 +39,15 @@
     margin-right: 30%;
 }
 
-.footer_stores {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*.footer_stores {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
 
-.footer_stores img:not(:last-child) {
-    margin-right: 10px;
-}
+/*.footer_stores img:not(:last-child) {*/
+/*    margin-right: 10px;*/
+/*}*/
 
 
 

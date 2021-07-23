@@ -25,7 +25,7 @@ function App() {
             <Header/>
             {/*<Categories />*/}
             {/*{isLoaded && <Menu menu={menu}/>}*/}
-            {/*<Footer/>*/}
+            <Footer/>
 
         </>
     );

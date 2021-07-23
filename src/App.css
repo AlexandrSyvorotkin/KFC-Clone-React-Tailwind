@@ -7,8 +7,13 @@
         @apply w-6 h-0.5 bg-black mb-1
     }
 
-    .red-div-block {
+    .red-block-header {
         @apply w-5 h-7 bg-red-500
+    }
+
+
+    .red-block-footer {
+        @apply w-8 h-12 bg-red-500
     }
 }
 
