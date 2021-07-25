@@ -30,9 +30,9 @@ const Header = () => {
             <div className='flex justify-between items-center mt-8'>
                 <h1 className='text-4xl font-bold'>Наш адрес: г. Москва ул. Театральный пр-д, 5/1</h1>
                 <div>
-                    <button className='bg-red-500 w-36 h-12 border-none mr-5' onClick={startGetDelivery}>Доставка
+                    <button className={!foodDelivery ? 'button' : 'activeButton'} onClick={startGetDelivery}>Доставка
                     </button>
-                    <button className='bg-red-500 w-36 h-12' onClick={getPickUp}>Самовывоз</button>
+                    <button className={foodDelivery ? 'button' : 'activeButton'} onClick={getPickUp}>Самовывоз</button>
                 </div>
             </div>
             {foodDelivery && <HeaderForm/>}

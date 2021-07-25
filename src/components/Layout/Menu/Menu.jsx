@@ -8,17 +8,17 @@ const Menu = (menu) => {
 
 
     return (
-        <div>
-            <div className='flex items-center flex-wrap'>
+        <>
+            <div className='flex items-center flex-wrap bg-gray-100 mt-5'>
                 {burgers.map((it) => <MenuCard key={it.id} name={it.name} img={it.img} price={it.price}/>)}
             </div>
-            {/*<div className='flex items-center'>*/}
-            {/*    {twisters.map((it) => <MenuCard key={it.id} name={it.name} img={it.img} price={it.price}/>)}*/}
-            {/*</div>*/}
-            {/*<div className='flex items-center'>*/}
-            {/*    {baskets.map((it) => <MenuCard key={it.id} name={it.name} img={it.img} price={it.price}/>)}*/}
-            {/*</div>*/}
-        </div>
+            <div className='flex items-center flex-wrap'>
+                {twisters.map((it) => <MenuCard key={it.id} name={it.name} img={it.img} price={it.price}/>)}
+            </div>
+            <div className='flex items-center flex-wrap bg-gray-200'>
+                {baskets.map((it) => <MenuCard key={it.id} name={it.name} img={it.img} price={it.price}/>)}
+            </div>
+        </>
     );
 }
 
