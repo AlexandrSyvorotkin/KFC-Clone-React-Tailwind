@@ -26,9 +26,8 @@ function App() {
             <Categories />
             {isLoaded && <Menu menu={menu}/>}
             <Footer/>
-
         </>
     );
-};
+}
 
 export default App;
