@@ -5,14 +5,10 @@ import HeaderForm from "./HeaderForm/HeaderForm";
 
 const Header = () => {
 
-    const [foodDelivery, setFoodDelivery] = useState(false)
+    const [isFoodDeliverySelected, setIsFoodDeliverySelected] = useState(false)
 
-    const startGetDelivery = () => {
-        setFoodDelivery(true)
-    }
-    const getPickUp = () => {
-        setFoodDelivery(false)
-    }
+    const startGetDelivery = () => setIsFoodDeliverySelected(true)
+    const getPickUp = () => setIsFoodDeliverySelected(false)
 
     return (
         <>
@@ -30,12 +26,12 @@ const Header = () => {
             <div className='flex justify-between items-center mt-8'>
                 <h1 className='text-4xl font-bold'>Наш адрес: г. Москва ул. Театральный пр-д, 5/1</h1>
                 <div>
-                    <button className={!foodDelivery ? 'button' : 'activeButton'} onClick={startGetDelivery}>Доставка
+                    <button className={!isFoodDeliverySelected ? 'button' : 'activeButton'} onClick={startGetDelivery}>Доставка
                     </button>
-                    <button className={foodDelivery ? 'button' : 'activeButton'} onClick={getPickUp}>Самовывоз</button>
+                    <button className={isFoodDeliverySelected ? 'button' : 'activeButton'} onClick={getPickUp}>Самовывоз</button>
                 </div>
             </div>
-            {foodDelivery && <HeaderForm/>}
+            {isFoodDeliverySelected && <HeaderForm/>}
         </>
     );
 };
