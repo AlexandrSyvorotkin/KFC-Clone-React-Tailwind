@@ -7,8 +7,12 @@ const MenuCard = ({img, price, name}) => {
 
     const [amountOfMeal, setAmountOfMeal] = useState(true)
 
-    const setAmountOfMealHandler = () => {
+    const AmountOfMealHandler = () => {
         setAmountOfMeal(false)
+    }
+
+    const hideAmountOfMealHandler = () => {
+        setAmountOfMeal(true)
     }
 
     return (
@@ -16,13 +20,13 @@ const MenuCard = ({img, price, name}) => {
             <div className='relative mb-1'>
                 <img src={img} alt=""/>
                 {
-                    !amountOfMeal ? <div className='bg-black rounded-full w-28 h-12 flex items-center justify-between'>
-                        <img className='px-4' src={Minus} alt=""/>
+                    !amountOfMeal ? <div className='absolute bottom-0 right-0 bg-black rounded-full w-28 h-12 flex items-center justify-between'>
+                        <div onClick={hideAmountOfMealHandler}><img className='px-4' src={Minus} alt=""/></div>
                         <div className='text-gray-50'>1</div>
-                        <img className='px-4' src={Plus} alt=""/>
+                        <div><img className='px-4' src={Plus} alt=""/></div>
                     </div> : <div
-                        className='flex items-center justify-center absolute w-12 h-12 bg-white rounded-full bottom-0 right-0 shadow-lg'
-                        onClick={setAmountOfMealHandler}
+                        className='absolute bottom-0 right-0 flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg'
+                        onClick={AmountOfMealHandler}
                     >
                         <div><img src={BlackPlus} alt=""/></div>
                     </div>
