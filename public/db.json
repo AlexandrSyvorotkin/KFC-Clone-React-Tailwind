@@ -59,7 +59,8 @@
       "name": "Боксмастер оригинальный",
       "price": 200,
       "delivery": true,
-      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png",
+      "newProduct": "Новое"
     },
     {
       "id": 2,
