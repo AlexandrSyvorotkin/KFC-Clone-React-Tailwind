@@ -17,21 +17,21 @@ const MenuCard = ({img, price, name, hit, newProduct}) => {
 
     return (
         <div className='flex flex-col'>
-            {newProduct ? <div className='w-14 h-14 rounded-full bg-red-500 text-x1 flex items-center justify-center text-white'>{newProduct}</div>
-            : null
-            }
-            {hit ? <div className='w-14 h-14 rounded-full bg-black text-x1 flex items-center justify-center text-white'>{hit}</div>
-                : null
-            }
             <div className='relative mb-1'>
+                {newProduct ? <div className='productStatus bg-red-500 '>{newProduct}</div>
+                    : null
+                }
+                {hit ? <div className='productStatus bg-black'>{hit}</div>
+                    : null
+                }
                 <img src={img} alt=""/>
                 {
-                    !amountOfMeal ? <div className='absolute bottom-0 right-0 bg-black rounded-full w-28 h-12 flex items-center justify-between'>
+                    !amountOfMeal ? <div className='amountMeals justify-between w-28 bg-black '>
                         <div onClick={hideAmountOfMealHandler}><img className='px-4' src={Minus} alt=""/></div>
                         <div className='text-gray-50'>1</div>
                         <div><img className='px-4' src={Plus} alt=""/></div>
                     </div> : <div
-                        className='absolute bottom-0 right-0 flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg'
+                        className='amountMeals justify-center w-12 bg-white shadow-lg'
                         onClick={AmountOfMealHandler}
                     >
                         <div><img src={BlackPlus} alt=""/></div>

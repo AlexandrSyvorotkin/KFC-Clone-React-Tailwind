@@ -5,7 +5,6 @@ const Menu = (menu) => {
     const data = Object.values(menu)
 
     const {burgers, twisters, baskets} = data[0]
-    console.log(burgers)
 
 
     return (
