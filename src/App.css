@@ -28,7 +28,7 @@
     }
 
     .amountMeals {
-        @apply absolute bottom-0 right-0 flex items-center rounded-full h-12
+        @apply bottom-0 right-0 flex items-center rounded-full h-12
     }
 
 }

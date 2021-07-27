@@ -16,7 +16,7 @@ const MenuCard = ({img, price, name, hit, newProduct}) => {
     }
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col justify-between'>
             <div className='relative mb-1'>
                 {newProduct ? <div className='productStatus bg-red-500 '>{newProduct}</div>
                     : null
