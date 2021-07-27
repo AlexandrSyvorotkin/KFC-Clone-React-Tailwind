@@ -3,7 +3,7 @@ import Plus from '../../../assets/Plus.png'
 import Minus from '../../../assets/Minus.png'
 import BlackPlus from '../../../assets/blackPlus.jpg'
 
-const MenuCard = ({img, price, name}) => {
+const MenuCard = ({img, price, name, hit, newProduct}) => {
 
     const [amountOfMeal, setAmountOfMeal] = useState(true)
 
@@ -16,7 +16,13 @@ const MenuCard = ({img, price, name}) => {
     }
 
     return (
-        <div className='flex flex-col mr-5'>
+        <div className='flex flex-col'>
+            {newProduct ? <div className='w-14 h-14 rounded-full bg-red-500 text-x1 flex items-center justify-center text-white'>{newProduct}</div>
+            : null
+            }
+            {hit ? <div className='w-14 h-14 rounded-full bg-black text-x1 flex items-center justify-center text-white'>{hit}</div>
+                : null
+            }
             <div className='relative mb-1'>
                 <img src={img} alt=""/>
                 {

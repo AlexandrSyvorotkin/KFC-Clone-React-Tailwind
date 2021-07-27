@@ -5,14 +5,16 @@
       "name": "Шевбургер Де Люкс",
       "price": 170,
       "delivery": true,
-      "img": "https://s82079.cdn.ngenix.net/330x0/VnEgcf2wCjgJZQeR58mvtzUB.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/VnEgcf2wCjgJZQeR58mvtzUB.png",
+      "hit": "Хит"
     },
     {
       "id": 2,
       "name": "Шевбургер Де Люкс острый",
       "price": 200,
       "delivery": false,
-      "img": "https://s82079.cdn.ngenix.net/330x0/wK4fLvNXD4NKZJUrVgjPV383.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/wK4fLvNXD4NKZJUrVgjPV383.png",
+      "newProduct": "Новое"
     },
     {
       "id": 3,
@@ -47,7 +49,8 @@
       "name": "Шевбургер Джуниор Острый",
       "price": 270,
       "delivery": true,
-      "img": "https://s82079.cdn.ngenix.net/330x0/etZVHiWewqH6XqEsShD4Axz9.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/etZVHiWewqH6XqEsShD4Axz9.png",
+      "newProduct": "Новое"
     }
   ],
   "twisters": [
@@ -70,14 +73,16 @@
       "name": "Твистер Де Люкс Острый",
       "price": 184,
       "delivery": false,
-      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png",
+      "hit": "Хит"
     },
     {
       "id": 4,
       "name": "Твистер Де Люкс Оригинальный",
       "price": 170,
       "delivery": false,
-      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/v1NR8JHrjiBTEDHXdPBfzz21.png",
+      "newProduct": "Новое"
     },
     {
       "id": 5,
@@ -100,7 +105,8 @@
       "name": "Домашний Баскет Оригинальный новый",
       "price": 200,
       "delivery": true,
-      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/U4Fj8i4B2k1R6Vh7jZPRSo3d.png",
+      "newProduct": "Новое"
     },
     {
       "id": 2,
@@ -114,7 +120,8 @@
       "name": "Домашний баскет острый новый",
       "price": 750,
       "delivery": false,
-      "img": "https://s82079.cdn.ngenix.net/330x0/jhBxUJGVCNKRk2Ar2KYLsRAo.png"
+      "img": "https://s82079.cdn.ngenix.net/330x0/jhBxUJGVCNKRk2Ar2KYLsRAo.png",
+      "hit": "Хит"
     },
     {
       "id": 4,
@@ -142,7 +149,8 @@
       "name": "Баскет 8 ножек оригинальный",
       "price": 550,
       "delivery": true,
-      "img": "https://s82079.cdn.ngenix.net/330x0/nnyu1l3i2e0l6ixlg8couj9xk9fy"
+      "img": "https://s82079.cdn.ngenix.net/330x0/nnyu1l3i2e0l6ixlg8couj9xk9fy",
+      "hit": "Хит"
     },
     {
       "id": 8,
