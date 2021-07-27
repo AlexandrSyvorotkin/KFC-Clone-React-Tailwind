@@ -37,9 +37,8 @@ const Footer = () => {
         ]
     }
 
-    // todo: Footer Links
     return (
-        <footer className='mt-10'>
+        <footer>
             <div className='flex justify-center'>
                 <div className='flex flex-row'>
                     <div className='red-block-footer'></div>
@@ -54,25 +53,25 @@ const Footer = () => {
                 <FooterInfoLinks links={Links.socialLinks} title='Мы рядом'/>
                 <FooterInfoLinks links={Links.ContactLinks} title='Контакты'/>
             </div>
-            <div className='flex items-center justify-center h-10 mt-4'>
-                {/*<div className='flex justify-between w-11 h-4'>*/}
-                {/*    <a href="https://vk.com/kfcrussia">*/}
-                {/*        <img src={VK} alt="vk.com"/>*/}
-                {/*    </a>*/}
-                {/*    <a href="https://www.facebook.com/kfcrussia">*/}
-                {/*        <img src={FaceBook} alt="facebook.com"/>*/}
-                {/*    </a>*/}
-                {/*    <a href="https://twitter.com/kfcrussia">*/}
-                {/*        <img src={Twitter} alt="twitter.com"/>*/}
-                {/*    </a>*/}
-                {/*    <a href="https://ok.ru/group/53854456184833">*/}
-                {/*        <img src={Classmates} alt="ok.ru"/>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
-                {/*<div className='flex items-center justify-between'>*/}
-                {/*    <img className='mr-5' src={GoogleStore} alt=""/>*/}
-                {/*    <img src={AppleStore} alt=""/>*/}
-                {/*</div>*/}
+            <div className='grid grid-cols-7 h-10 mt-4'>
+                <div className='col-span-4 flex justify-end'>
+                    <a className='mr-7' href="https://vk.com/kfcrussia">
+                        <img src={VK} alt="vk.com"/>
+                    </a>
+                    <a className='mr-7' href="https://www.facebook.com/kfcrussia">
+                        <img src={FaceBook} alt="facebook.com"/>
+                    </a>
+                    <a className='mr-7' href="https://twitter.com/kfcrussia">
+                        <img src={Twitter} alt="twitter.com"/>
+                    </a>
+                    <a className='mr-7' href="https://ok.ru/group/53854456184833">
+                        <img src={Classmates} alt="ok.ru"/>
+                    </a>
+                </div>
+                <div className='col-span-3 flex items-center justify-end'>
+                    <img className='mr-2' src={GoogleStore} alt=""/>
+                    <img src={AppleStore} alt=""/>
+                </div>
             </div>
         </footer>
     );
