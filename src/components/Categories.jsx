@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
+import {fetchGoods} from "../redux/features/goodsSlice";
 
 const Categories = () => {
+
 
     const categories = ['Бургеры','Твистеры','Курица', 'Баскеты', 'Снэки', 'Соусы', 'Напитки', 'Кофе и чай', 'Десерты', 'Хиты по 50', 'Хиты пс']
 

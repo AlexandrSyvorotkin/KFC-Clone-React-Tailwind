@@ -3,28 +3,37 @@ import Header from "./components/Layout/Header/Header";
 import Categories from "./components/Categories";
 import Footer from "./components/Layout/Footer/Footer";
 import {useEffect, useState} from "react";
-import axios from "axios";
+import {fetchGoods} from "./redux/features/goodsSlice";
+import {useDispatch} from "react-redux";
 import Menu from "./components/Layout/Menu/Menu";
 
 
 function App() {
 
-    const [menu, setMenu] = useState([])
-    const [isLoaded, setIsloaded] = useState(false)
 
+    // const [menu, setMenu] = useState([])
+    // const [isLoaded, setIsloaded] = useState(false)
+    //
+    // useEffect(() => {
+    //     axios.get('http://localhost:3001/db.json')
+    //         .then(({data}) => {
+    //             setMenu(data)
+    //             setIsloaded(true)
+    //         })
+    // }, [])
+
+
+    const dispatch = useDispatch()
     useEffect(() => {
-        axios.get('http://localhost:3001/db.json')
-            .then(({data}) => {
-                setMenu(data)
-                setIsloaded(true)
-            })
-    }, [])
+        dispatch(fetchGoods())
+        // setIsloaded(true)
+    }, [dispatch])
 
     return (
         <>
             <Header/>
-            <Categories />
-            {isLoaded && <Menu menu={menu}/>}
+            <Categories/>
+             <Menu/>
             <Footer/>
         </>
     );
