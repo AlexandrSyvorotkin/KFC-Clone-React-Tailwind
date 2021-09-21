@@ -1,6 +1,4 @@
-import React, {useEffect} from 'react';
-import {useDispatch} from "react-redux";
-import {fetchGoods} from "../redux/features/goodsSlice";
+import React from 'react';
 
 const Categories = () => {
 
